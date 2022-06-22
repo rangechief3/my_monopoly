@@ -10,6 +10,8 @@ button_height = 50
 #13 slots per side of board
 #9 of which are the middle pieces, 4 are the corner squares
 
+stats_x = 600 + board_width + 100
+
 Space_width = board_width // 13
 Corner_width = Space_width * 2
 
@@ -27,6 +29,8 @@ RED = (255,0,0)
 YELLOW = (255,255,0)
 MAG = (204, 0 , 102)
 ORANGE = (255,128,0)
+
+piece_colors = [GREEN, TEAL, BROWN, BLUE, RED, YELLOW, MAG, ORANGE]
 
 BACKGROUND_COLOR = (0, 144, 48)
 BOARD_COLOR = (194,220,202)

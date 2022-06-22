@@ -7,9 +7,9 @@ from .constants import *
 class Board:
     def __init__(self, win):
         self.win = win
-        self.draw(self.win)
+        self.draw()
 
-    def draw(self, win):
+    def draw(self):
         self.win.fill(BACKGROUND_COLOR)
         pygame.draw.rect(self.win, BLACK, (600, 100, board_width, board_width))
         pygame.draw.rect(self.win, BOARD_COLOR, (600 + Buff, 100 + Buff, board_width - 2 * Buff, board_width - 2 * Buff))
